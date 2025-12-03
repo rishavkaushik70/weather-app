@@ -33,8 +33,10 @@ async function checkWeather(city){
     }else if(data.weather[0].main == "Drizzle"){
         weatherIcon.src = "drizzle.png"
     }
-    document.querySelector(".error").style.display = "none"
-    }
+    
+    
+    document.querySelector(".error").style.display = "none"s
+}
     
 
 

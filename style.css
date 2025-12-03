@@ -7,13 +7,18 @@
 body{
     background: #222;
 }
-
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
 .card{
     width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 200px auto 0;
+    /* margin: 10px auto 0; */
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
